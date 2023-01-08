@@ -30,7 +30,7 @@ The biggest differences you'll see (aside from naming differences between P5 and
 
 ## On to the Lab
 
-In the Tutorial section, we will walk through using a new piece of functionality called a Vector to make our lives a bit easier, and then we will construct our own class. 
+In the [Tutorial](.tutorial/00-Overview.md), we will walk through using a new piece of functionality called a Vector to make our lives a bit easier, and then we will construct our own class. 
 
 <!-- Footnotes -->
 [^1]: The punchline being that if you try to assign a non-integer value to `x` in Java, you will get a compliation error _before_ your program runs, which is considered safe. In JavaScript, you're free to assign anything to you want to x, meaning that if you are expecting an integer but get, say, a string, your program will not function as expected and, likely, will be difficult to debug. 
