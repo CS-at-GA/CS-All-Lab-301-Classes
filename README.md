@@ -1,4 +1,4 @@
-# Lab 301 - Classes
+# Lab - Classes
 
 In this lab, we will explore the idea of _modeling_ a concept using a common technique found in many programming langauges called _Classes_. Abstractly, a class is a description of the properties of the thing we want to model and the behaviors that thing possesses. For instance, we might want to model a tree. We could say that a tree has a height, a canopy size, a trunk size, etc. These would be the properties. The behaviors are what the tree does. For instance, it grows, it changes color, ot loses its leaves, it drops seeds, etc. 
 
