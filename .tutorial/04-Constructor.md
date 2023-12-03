@@ -1,6 +1,6 @@
 # Constructor
 
-The first thing we will do is write a _constructor_. This is a special function that builds (constructs) the objects specified by the class. 
+The first thing we will do is write a _constructor_. This is a special function that builds (constructs) the objects specified by the class. In JavaScript, you write a constructor by creating a function inside of a class named `constructor`. Note here the lack of the `function` keyword. 
 
 ```javascript
 class Ball {
@@ -47,7 +47,7 @@ class Ball {
 Now that we have a constructor defined, we can create a ball object. We do this using the `new` keyword. Also note the other minor changes.
 
 ```javascript
-let ball; // no longer a POJO
+let ball; // no longer a POJO, but an "instance" of Ball
 
 class Ball {
   constructor(position,movement,size,color) {
@@ -67,6 +67,6 @@ function setup() {
     createVector(1, 1),
     10,
     color('red')
-  ) // parenthese
+  ) 
 }
 ```
